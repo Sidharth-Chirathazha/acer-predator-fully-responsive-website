@@ -1,0 +1,159 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-left a{
+ 
+     font-size:15px;
+     text-decoration: none;
+     color: white;
+     font-weight: 500;
+}
+.header-right{
+
+    font-size: 15px;
+}
+header{
+
+    background-color: rgb(48, 47, 47);
+}
+.navbar-items a{
+
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-items a:hover{
+
+    color: white;
+    background-color: gray;
+
+}
+.nav-end-icons i{
+
+    font-size: 15px;
+    color: white;
+}
+.navbar-toggler{
+
+    border: none;
+    color: white;
+}
+
+.c-item{
+
+    height: 670px;
+}
+.c-img{
+
+    height: 100%;
+    object-fit: cover;
+}
+.c-caption{
+
+    top: 100px;
+    text-align:left;
+
+}
+@media (max-width:1200px){
+
+    .devices-row{
+
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+   
+}
+.d-col{
+
+    object-fit: cover;
+}
+
+@media (max-width:992px){
+
+    .d-img{
+
+        width: 210px;
+        height: 140px;
+    }
+    .text-font-size{
+
+        font-size: 95%;
+    }
+    .text-in-list{
+
+        font-size: 96%;
+    }
+}
+@media (max-width:768px){
+
+    .d-img{
+
+        width: 160px;
+        height: 120px;
+    }
+    .text-font-size{
+
+        font-size: 80%;
+    }
+    .text-in-list{
+
+        font-size: 85%;
+    }
+}
+@media (max-width:576px){
+
+    .d-img{
+
+        width: 120px;
+        height: 80px;
+    }
+    .text-font-size{
+
+        font-size: 90%;
+        font-size: 70%;
+    }
+} 
+
+.footer-list li{
+
+    background-color: #242323;
+    border: none;
+    color: black;
+}
+footer{
+
+    background: rgb(26, 25, 25);
+}
+.footer-list-main li{
+
+    color: white;
+    line-height: 50px;
+}
+.footer-end-div a{
+
+    font-size: 15px;
+}
+.footer-split-line{
+
+  background-color: #141414;
+}
+.sub-li-items:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-link-items:hover{
+
+    font-size: 18px;
+}
